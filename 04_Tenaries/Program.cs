@@ -15,8 +15,9 @@ namespace _04_Tenaries
             //(Condition/Boolean) ? trueResult : falseResult
             string result = (age > 17) ? "You are an adult" : "You are not an adult";
             Console.WriteLine(result);
-            
-           
+
+            bool boolResult = (age > 17) ? true : false;
+            Console.WriteLine(boolResult);
             Console.ReadKey();
         }
     }
